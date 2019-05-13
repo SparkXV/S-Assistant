@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="527.0" prefWidth="764.0" style="-fx-background-color: #203447;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.AdminController">
+   <children>
+      <Button fx:id="btnlogin" layoutX="339.0" layoutY="401.0" mnemonicParsing="false" onAction="#handleButtonClicks"  prefHeight="45.0" prefWidth="109.0" style="-fx-background-color: #3C58FA;" text="log in" />
+      <Label layoutX="349.0" layoutY="26.0" prefHeight="55.0" prefWidth="88.0" text="  Admin" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="45.0" fitWidth="55.0" layoutX="256.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="#######" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="61.0" layoutX="256.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="######" />
+         </image>
+      </ImageView>
+      <TextField fx:id="name" layoutX="314.0" layoutY="190.0" prefHeight="39.0" prefWidth="201.0" promptText="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="314.0" layoutY="288.0" prefHeight="39.0" prefWidth="201.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
