@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Teacher.TeacherNoticeBoardController">
+   <children>
+      <Pane prefHeight="136.0" prefWidth="1282.0" style="-fx-background-color: #203447;">
+         <children>
+            <Label layoutX="542.0" layoutY="40.0" prefHeight="57.0" prefWidth="196.0" text="   Notice Board" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="nb" layoutY="136.0" prefHeight="534.0" prefWidth="1282.0">
+        <columns>
+          <TableColumn fx:id="datecolumn" prefWidth="271.0" text="Announcement Date" />
+          <TableColumn fx:id="infcolumn" prefWidth="1010.0" text="  Announcements" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnshow" layoutX="586.0" layoutY="675.0" mnemonicParsing="false" onAction="#showinf" prefHeight="41.0" prefWidth="123.0" style="-fx-background-color: #4286f4;" text="Show" />
+   </children>
+</AnchorPane>
