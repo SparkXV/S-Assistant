@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="726.0" prefWidth="1078.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Teacher.TeacherStudentController">
+   <children>
+      <Pane prefHeight="175.0" prefWidth="1086.0" style="-fx-background-color: #203447;">
+         <children>
+            <Label layoutX="419.0" layoutY="63.0" prefHeight="49.0" prefWidth="249.0" text="         Registered Students " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="sttable" layoutX="-1.0" layoutY="175.0" prefHeight="501.0" prefWidth="1086.0">
+        <columns>
+          <TableColumn fx:id="idcolumn" prefWidth="145.0" text="id" />
+          <TableColumn fx:id="firstnamecolumn" prefWidth="234.0" text="fname" />
+            <TableColumn fx:id="lastnamecolumn" prefWidth="223.0" text="lname" />
+            <TableColumn fx:id="emailcolumn" prefWidth="261.0" text="email" />
+            <TableColumn fx:id="dobcolumn" prefWidth="219.0" text="dob" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnshow" layoutX="472.0" layoutY="681.0" mnemonicParsing="false" onAction="#showstudents" prefHeight="41.0" prefWidth="142.0" style="-fx-background-color: #7696c9;" text="Show" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="726.0" prefWidth="1078.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Student.StudentGradeController">
+   <children>
+      <Pane prefHeight="175.0" prefWidth="1078.0" style="-fx-background-color: #203447;">
+         <children>
+            <Label layoutX="447.0" layoutY="48.0" prefHeight="79.0" prefWidth="171.0" text="       Grade Report" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="gt" layoutY="175.0" prefHeight="491.0" prefWidth="1078.0">
+        <columns>
+          <TableColumn fx:id="idcolumn" prefWidth="83.0" text="        id" />
+          <TableColumn fx:id="fnamecolumn" minWidth="0.0" prefWidth="125.0" text="fname" />
+            <TableColumn fx:id="lnamecolumn" minWidth="0.0" prefWidth="146.0" text="    lname" />
+            <TableColumn fx:id="emailcolumn" minWidth="0.0" prefWidth="185.0" text="email" />
+            <TableColumn fx:id="dobcolumn" minWidth="0.0" prefWidth="204.0" text="dob" />
+            <TableColumn fx:id="gradecolumn" minWidth="0.0" prefWidth="334.0" text="Grade " />
+        </columns>
+      </TableView>
+      <Button fx:id="btnload" layoutX="479.0" layoutY="672.0" mnemonicParsing="false" onAction="#showgrade" prefHeight="48.0" prefWidth="118.0" style="-fx-background-color: #4286f4;" text="Show" />
+   </children>
+</AnchorPane>
