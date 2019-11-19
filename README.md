@@ -8,6 +8,6 @@ Image urls removed as a precaution from all FXML files.
 
 #### Snapshots
 ```
-[Home Page] (https://github.com/SparkXV/S-Assistant/blob/master/snapshots/Screenshot%20(175).png)
+[https://github.com/SparkXV/S-Assistant/blob/master/snapshots/Screenshot%20(175).png] (Home Page)
 
 ```
