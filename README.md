@@ -18,4 +18,7 @@ Login
 ```
 ![alt text](https://github.com/SparkXV/S-Assistant/blob/master/snapshots/Screenshot%20(169).png)
 
-
+```
+Admin Panel
+```
+![alt text](https://github.com/SparkXV/S-Assistant/blob/master/snapshots/Screenshot%20(171).png)
